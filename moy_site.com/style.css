@@ -1,0 +1,106 @@
+header {
+	background-color: #aadffb;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	height: 100px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-radius: 67px;
+	box-shadow: 15px 15px 5px gray;
+}
+
+center {
+	font-size: 67px;
+	background-color: ;
+	margin-bottom: 5%;
+}
+
+article {
+	display: flex;
+	margin-bottom: 68px;
+}
+
+div.menu {
+	background-color: #736e6e;
+	height: 525px;
+	width: 375px;
+	margin-left: 42px;
+	margin-top: 17px;
+	border-right: 1px solid black;
+	padding: 13px;
+	border-radius: 25px;
+	margin-right: 7px;
+}
+
+content {
+	background-color: white;
+	height: 600px;
+	width: 1400px;
+	margin-left: 0px;
+	margin-top: 17px;
+	margin-right: 46px;
+	padding: 13px;
+	padding-bottom: 5px;
+}
+
+body {
+	font-size: 20px;
+}
+
+p {
+	padding: 5px;
+	margin: 10px;
+}
+
+footer {
+	background-color: #736e5a;
+	color: white;
+	height: 50px;
+	width: 100%;
+	display: flex;
+}
+
+hr {
+	border-color: black;
+	border: solid 1px;
+}
+
+div.myself {
+	text-align: center;
+	text-align: middle;
+	background: linear-gradient( to right bottom, #111111, #666);
+	border-radius: 100px;
+	box-shadow: 3px 3px 10px black;
+	padding-top: 15%;
+	height: 110px;
+	font-size: 40px;
+	color: black;
+	opacity: 0.7;
+}
+
+div.myself:hover {
+	opacity: 1;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.footer {
+	color: white;
+}
+
+footer div {
+	transition: 1s all;
+	margin: 15px;
+	border-right: 2px solid black;
+	padding-right: 7px;
+	font-size: 17px;
+	opacity: 0.5;
+}
+
+footer div:hover {
+	opacity: 1;
+	font-size: 18px;
+}

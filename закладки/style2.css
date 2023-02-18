@@ -1,0 +1,49 @@
+a:hover {
+	color:green;
+	font-size:17px;
+}
+
+.botton {
+	opacity:0.5;
+}
+
+.botton:hover {
+	opacity:1;
+}
+
+.text {
+	transition:3s all;
+	transform:scale(1);
+}
+
+.text:hover {
+	transform:rotate(45deg) scale(1);
+}
+
+ ul {
+	 list-style-image:url("https://i.stack.imgur.com/KQQIE.png")
+ }
+
+div {
+	font-style:oblique;
+}
+
+a {
+	font-style:oblique;
+}
+
+input:invalid {
+    background: #fdd; 
+   }
+   input:valid {
+    background: #dfd; 
+   }
+   
+a:active {
+	color:black;
+	font-size:14px;
+}
+
+hr {
+	margin-left:5px;
+}

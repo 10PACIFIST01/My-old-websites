@@ -1,0 +1,140 @@
+a.li {
+	margin-bottom: 20px;
+	transition: 1s all;
+	padding-top: 10px;
+	margin-left: 15px;
+	padding-left: 1px;
+	display: block;
+	margin-right: 15px;
+	padding-right: 10px;
+	color: #7ab;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+a.li:hover {
+	margin-left: 50px;
+	text-decoration: underline;
+}
+
+a.li:active {
+	font-size: 2px;
+	color: red;
+}
+
+body {
+	display:auto;
+	background-color: #1b2838;
+	color: gray;
+}
+
+header {
+	padding-top: auto;
+	padding-bottom: auto;
+	background-color: #111211;
+	color: #7ab;
+	border: 2px solid black;
+	margin-bottom: 30px;
+	box-shadow:10px 10px 15px #111111;
+	background: linear-gradient(to right bottom, #15205f, #111111);
+	display: auto;
+	opacity: 1;
+	font-style: italic;
+	height: 60px;
+	position: middle;
+}
+
+center {
+	font-size: 50px;
+}
+
+div.menu {
+	border: 3px solid black;
+	margin-right: 20px;
+	height:550px;
+	margin-left: 0px;
+	border-radius: 80px;
+	background: linear-gradient(to right bottom, #15205f, #111111);
+	box-shadow: 5px 5px 15px black;
+	opacity: 1;
+	width: 22%;
+}
+
+div.menu ul {
+	list-style-type: none;
+}
+
+hr {
+	width: 340px;
+	margin-right: 0px;
+}
+
+div.menu ul {
+	padding: 0px;
+}
+
+center.namecen {
+	font-size: 30px;
+}
+
+article {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+div.content {
+	border: 3px solid black;
+	background: linear-gradient(to right bottom, #15205f, #111111);
+	width: 76%;
+	border-radius: 90px;
+	font-size: 20px;
+	height: 700px;
+	padding: 10px;
+}
+
+div.content p {
+	font-size: 20px
+	padding-top: 5px;
+	padding: 10px;
+}
+
+nav {
+	background-color: #111923;
+	height: 62px;
+	width: 100%;
+	margin-top: 30px;
+	display: flex;
+	padding-left: 20px;
+	border: 1px solid black;
+	box-shadow: 5px -5px 75px black;
+}
+
+nav.footer div {
+	display: block;
+	background-color: ;
+	width: 100px;
+	padding-left: 10px;
+	text-align: center;
+	margin-bottom: auto;
+	margin-top: auto;
+	border-right: 10px;
+	border-right: 2px solid black;
+	font-size: 14px;
+}
+
+div.firstdiv {
+	border-left: 2px solid black;
+	padding-left: 5px;
+}
+
+nav.footer a {
+	color: gray;
+	text-decoration: none;
+	transition: 1s all;
+}
+
+nav.footer a:hover {
+	color: #7ab;
+}
+
